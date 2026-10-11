@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop fashion and clothing at JOHMEX Mini Store.">
+  <title>JOHMEX Mini Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header class="header">
+    <a href="#" class="logo">JOHMEX <span>MINI STORE</span></a>
+    <a href="#cart" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">STYLE THAT SPEAKS</p>
+      <h1>Discover Your<br><span>Perfect Style.</span></h1>
+      <p>Upgrade your wardrobe with fashion that fits your personality.</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="products-section" id="products">
+      <p class="eyebrow">OUR COLLECTION</p>
+      <h2>Shop Our Products</h2>
+      <p class="subtitle">Explore our latest fashion collection.</p>
+
+      <p id="status">Loading products...</p>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+
+    <section class="cart-section" id="cart">
+      <p class="eyebrow">YOUR SELECTION</p>
+      <h2>Your Shopping Cart</h2>
+      <div id="cart-items">Your cart is empty.</div>
+      <h3>Total: <span id="cart-total">₦0</span></h3>
+      <button id="checkout-button" class="btn">Order on WhatsApp</button>
+    </section>
+  </main>
+
+  <footer>
+    <h3>JOHMEX Mini Store</h3>
+    <p>Fashion made simple. Style made personal.</p>
+    <p>&copy; 2026 JOHMEX Mini Store. All rights reserved.</p>
+  </footer>
+
+  <script src="javas.js"></script>
+</body>
+</html>
